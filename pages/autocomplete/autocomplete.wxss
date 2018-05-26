@@ -1,0 +1,34 @@
+.container{
+	padding: 40rpx 30rpx;
+}
+view{
+	box-sizing: border-box;
+}
+.textview{
+	padding: 30rpx 40rpx;
+	font-size: 24rpx;
+	line-height: 32rpx;
+	color: #999;
+	text-align: justify;
+}
+.input{
+	margin-top: 30rpx;
+	height: 70rpx;
+}
+.input input{
+	padding: 0 30rpx;
+	height: 100%;
+	border: 1rpx solid #7280e0;
+	border-radius: 6rpx;
+	font-size: 28rpx;
+	color: #333;
+}
+.itemview{
+	padding: 0 30rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 28rpx;
+	color: #fff;
+	background-color: #7280e0;
+	border-bottom: 1rpx solid #fff;
+}

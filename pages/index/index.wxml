@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="list">
+    <navigator url="/pages/autocomplete/autocomplete">
+      <view class="item">
+        <text>自动补全输入内容</text>
+      </view>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+view{
+	box-sizing: border-box;
+}
+page{
+	height: 100%;
+	background-color: #f7f7f7;
+}
+.container{
+	padding: 40rpx 30rpx;
+}
+.item{
+	margin-bottom: 20rpx;
+	background-color: #fff;
+	border-radius: 6rpx;
+	padding: 30rpx;
+	color: #333;
+	font-size: 28rpx;
+}
+.item:last-child{
+	margin-bottom: 0;
+}
