@@ -9,7 +9,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"appid": "wx115c40eaf7a2065b",
+	"appid": "", //自己的APPID
 	"projectname": "%E7%BB%83%E6%89%8B",
 	"isGameTourist": false,
 	"condition": {
