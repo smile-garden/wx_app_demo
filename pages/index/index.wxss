@@ -16,6 +16,6 @@ page{
 	color: #333;
 	font-size: 28rpx;
 }
-.item:last-child{
+navigate:last-child .item{
 	margin-bottom: 0;
 }

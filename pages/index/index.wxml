@@ -5,5 +5,10 @@
         <text>自动补全输入内容</text>
       </view>
     </navigator>
+    <navigator url="/pages/ercode/ercode">
+      <view class="item">
+        <text>生成二维码</text>
+      </view>
+    </navigator>
   </view>
 </view>
