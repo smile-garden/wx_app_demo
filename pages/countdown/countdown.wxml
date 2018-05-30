@@ -1,0 +1,6 @@
+<view class="title">距离活动结束还有</view>
+<view class="time-box">
+	<view class="box" animation="{{animation}}">{{hmsArr[0]}} 时</view>
+	<view class="box" animation="{{animation}}">{{hmsArr[1]}} 分</view>
+	<view class="box" animation="{{animation}}">{{hmsArr[2]}} 秒</view>
+</view>

@@ -1,0 +1,17 @@
+.title{
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 48rpx;
+	color: #7280e0;
+}
+.box{
+	margin: 20rpx auto;
+	width: 160rpx;
+	height: 80rpx;
+	background-color: #7280e0;
+	border-radius: 4rpx;
+	text-align: center;
+	line-height: 80rpx;
+	font-size: 48rpx;
+	color: #fff;
+}

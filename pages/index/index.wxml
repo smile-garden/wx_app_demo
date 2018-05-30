@@ -10,5 +10,10 @@
         <text>生成二维码</text>
       </view>
     </navigator>
+    <navigator url="/pages/countdown/countdown">
+      <view class="item">
+        <text>倒计时</text>
+      </view>
+    </navigator>
   </view>
 </view>
