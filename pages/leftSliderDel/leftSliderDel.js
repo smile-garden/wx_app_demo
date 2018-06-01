@@ -55,7 +55,6 @@ Page({
       var txtStyle = disX > delBtnWidth/3 ? delBtnWidth : 0;
       var index = e.currentTarget.dataset.index;
       var list = this.data.list;
-      console.log(disX);
       if (index >= 0) {
         list[index].txtStyle = txtStyle;
         this.setData({
@@ -63,6 +62,14 @@ Page({
         })
       };
     };
+  },
+  delItem: function (e) {
+    var index = e.currentTarget.dataset.index;
+    var list = this.data.list;
+    list.splice(index, 1);
+    this.setData({
+      list: list
+    })
   },
   tempData:function(){
     var list = [
