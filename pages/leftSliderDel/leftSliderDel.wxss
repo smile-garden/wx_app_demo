@@ -1,0 +1,57 @@
+page{
+	background-color: #f7f7f7;
+}
+view{
+	box-sizing: border-box;
+}
+.container{
+	width: 690rpx;
+	margin: 0 auto;
+	padding: 30rpx 0;
+}
+.list{
+	width: 100%;
+}
+.item{
+	position: relative;
+	border-bottom: 1rpx solid #eee;
+	width: 690rpx;
+	height: 120rpx;
+	background-color: #fff;
+	line-height: 120rpx;
+	overflow: hidden;
+}
+.inner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: left .2s ease-in-out;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 870rpx;
+	height: 100%;
+}
+
+.icon{
+	margin-left: 20rpx;
+	width: 70rpx;
+	height: 70rpx;
+}
+.text{
+	padding: 0 30rpx 0 20rpx;
+	width: 600rpx;
+	font-size: 28rpx;
+	color: #333;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.del{
+	width: 180rpx;
+	height: 100%;
+	background-color: #FF3931;
+	font-size: 28rpx;
+	color: #fff;
+	text-align: center;
+}

@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/autocomplete/autocomplete",
-    "pages/ercode/ercode"
+    "pages/ercode/ercode",
+    "pages/countdown/countdown",
+    "pages/leftSliderDel/leftSliderDel"
   ],
   "window": {
     "backgroundTextStyle": "light",

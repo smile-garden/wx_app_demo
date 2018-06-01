@@ -1,0 +1,13 @@
+<view class="container">
+	<view class="list">
+		<block wx:for="{{list}}" wx:key="index">
+			<view class="item" bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}">
+				<view class="inner" style="left: {{-item.txtStyle+'rpx'}};">
+					<image class="icon" src="{{item.icon}}" mode="widthFix"></image>
+					<view class="text">{{item.txt}}</view>
+					<view class="del" bindtap="delItem">取消关注</view>
+				</view>
+			</view>
+		</block>
+	</view>
+</view>

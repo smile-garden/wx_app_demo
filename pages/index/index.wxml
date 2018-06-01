@@ -15,5 +15,10 @@
         <text>倒计时</text>
       </view>
     </navigator>
+    <navigator url="/pages/leftSliderDel/leftSliderDel">
+      <view class="item">
+        <text>列表左滑删除</text>
+      </view>
+    </navigator>
   </view>
 </view>
